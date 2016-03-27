@@ -1,0 +1,6 @@
+Microndk is makefile collection for building native xash3d project with standalone toolchain and omit hardfloat problems.
+Useful on android with cctools.
+To build, change current directory to directory with Android.mk (with module defination) and run:
+make -f /path/to/Microndk.mk
+Add -j5 if you have 4 cores.
+To build engine, place precompiled libSDL2.so to engine folder.
