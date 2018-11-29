@@ -18,6 +18,7 @@
 // this implementation handles the linking of the engine to the DLL
 //
 
+#include "sukablyat.h"
 #include "hud.h"
 #include "cl_util.h"
 #include "netadr.h"
